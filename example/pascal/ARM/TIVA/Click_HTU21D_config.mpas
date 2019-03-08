@@ -1,0 +1,8 @@
+unit Click_HTU21D_config;
+
+uses Click_HTU21D_types;
+
+const
+    _HTU21D_I2C_CFG : array[1] of uint32_t = (_I2C_BITRATE_STANDARD_MODE); 
+    
+end.
